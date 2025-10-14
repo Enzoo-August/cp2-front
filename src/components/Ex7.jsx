@@ -14,7 +14,7 @@ export default function Ex7() {
         <h1>Meu Dashboard</h1>
         <button>Sair</button>
       </header>
-      <main className="flex grid">
+      <main className="grid grid-row-2 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="card">
           <h3 className="font-bold mb-3 text-gray-800">
@@ -26,12 +26,23 @@ export default function Ex7() {
           <div className="card">
           <h3 className="font-bold mb-3 text-gray-800">
             Card 2 
-
           </h3>
           </div>
           </div>
-        <div>Card 3</div>
-        <div>Card 4</div>
+        <div className="grid grid-cols-1  lg:grid-cols-2 gap-6">
+        <div className="card">
+          <h3 className="font-bold mb-3 text-gray-800">
+            Card 3 
+          </h3>
+          </div>
+          </div>
+        <div className="grid grid-cols-2  lg:grid-cols-2 gap-6" >
+          <div className="card">
+          <h3 className="font-bold mb-3 text-gray-800">
+            Card 4
+          </h3>
+          </div>
+          </div>
       </div>
       </main>
     </div>
